@@ -7,3 +7,4 @@ def filter_vowels(x):
 eliminate_consonants('word')
 
 ####
+# hugo test
