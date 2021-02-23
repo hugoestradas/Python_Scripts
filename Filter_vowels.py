@@ -5,6 +5,3 @@ def filter_vowels(x):
                 print(char,end = "")
 
 eliminate_consonants('word')
-
-####
-# hugo test
