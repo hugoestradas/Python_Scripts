@@ -1,5 +1,4 @@
 import plotly.figure_factory as ff
-
 import numpy as np
 from scipy.spatial import Delaunay
 
