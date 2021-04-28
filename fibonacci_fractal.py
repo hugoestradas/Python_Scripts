@@ -10,7 +10,8 @@ def polygon(sides, side_len):
     left(360/sides)
   end_fill()
   if side_len >0:
-    left(2)
+    #left(2)
+    left(10)
     forward(8)
     polygon(sides, side_len-1)
 
