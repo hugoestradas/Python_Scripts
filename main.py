@@ -1,13 +1,21 @@
-import turtle
+import numpy as np
 
-turtle.bgcolor("black")
-turtle.pensize("23")
-turtle.speed(50)
+r   = 1
+tht = np.linspace(0, 10* np.pi, 1000)
 
-for i in range (100):
-    for colors in ["red", "green", "magenta", "cyan", "white", "blue"]:
-        turtle.color(colors)
-        turtle.circle(100)
-        turtle.left(10)
+x = r* np.cos(tht)
+y = r* np.sin(tht)
+z = np.exp(-tht)
 
-turtle.hideturtle()
+import matplotlib.pyplot as plt
+fig = plt.figure('Parametric curves')
+ax  = fig.add_subplot(111, projection='3d')
+ax.plot(x, y, z, '-r', linewidth = 3)
+
+ax.set_xlabel('X', fontweight = 'bold', fontsize = 14)
+ax.set_ylabel('Y', fontweight = 'bold', fontsize = 14)
+ax.set_zlabel('Z', fontweight = 'bold', fontsize = 14)
+
+plt.title('Parametric Curve', fontweight = 'bold', fontsize = 16)
+
+plt.show()
