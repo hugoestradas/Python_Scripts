@@ -1,2 +1,2 @@
 # Python_Basics
-Python Exercises and Examples 🖥🐍📊�⚙🚀
+Python Exercises and Examples 🖥🐍📊⚙🚀
