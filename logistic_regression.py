@@ -38,4 +38,3 @@ class LogisticRegression:
             #clip to 1 or 0
             y_predicted = [1 if i > 0.5 else 0 for i in y_predicted]
             return np.array(y_predicted)
-        
