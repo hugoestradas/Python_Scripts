@@ -8,4 +8,3 @@ matches = find_dates(text)
 for match in matches:
     print("Date & hour: ", match)
     print("Only day: ", match.day)
-    
