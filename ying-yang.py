@@ -27,7 +27,6 @@ begin_fill()
 circle(RAD2, 180)
 end_fill()
 
-# Draw smaller circles
 penup()
 goto(0, RAD2 + RAD6)
 begin_fill()
