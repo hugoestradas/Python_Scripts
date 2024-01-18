@@ -19,7 +19,6 @@ begin_fill()
 circle(RAD2, 180)
 end_fill()
 
-# Draw smaller white semi-circle
 penup()
 goto(0, RAD)
 pendown()
