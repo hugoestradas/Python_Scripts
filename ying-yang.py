@@ -4,7 +4,7 @@ RAD = 100
 RAD2 = RAD / 2
 RAD6 = RAD / 6
 
-degrees() # Switch to degrees
+degrees() 
 # Draw the circle, radius 100, half black
 fillcolor('black')
 begin_fill()
