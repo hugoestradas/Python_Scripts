@@ -11,7 +11,6 @@ circle(RAD, 180)
 end_fill()
 circle(RAD, 180)
 
-# Draw smaller black semi-circle
 left(180)
 penup()
 goto(0, RAD)
