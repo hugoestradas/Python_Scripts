@@ -5,7 +5,6 @@ RAD2 = RAD / 2
 RAD6 = RAD / 6
 
 degrees() 
-# Draw the circle, radius 100, half black
 fillcolor('black')
 begin_fill()
 circle(RAD, 180)
