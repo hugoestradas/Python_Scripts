@@ -8,3 +8,4 @@ with open(input_path, 'rb') as i:
         input = i.read()
         output = remove(input)
         o.write(output)
+        
