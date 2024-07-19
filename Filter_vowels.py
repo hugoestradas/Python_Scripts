@@ -4,4 +4,5 @@ def filter_vowels(x):
             if char in vowels:
                 print(char,end = "")
 
+
 eliminate_consonants('word')
