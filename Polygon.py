@@ -1,4 +1,4 @@
-from turtle import*
+from turtle import *
 
 speed(100)
 
