@@ -7,3 +7,4 @@ def calculate_price(event=None, discount=None):
         .bind_optional(lambda ticket: ticket.get_price())
         .bind_optional(lambda price: discount.get_discount(price))
     )
+    
